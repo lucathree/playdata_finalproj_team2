@@ -1,0 +1,2 @@
+/home/ubuntu/aiml/data/traffic_lane/Validation/c_1280_720_daylight_validation_1/image/
+/home/ubuntu/aiml/data/traffic_lane/Validation/c_1280_720_night_validation_1/image/

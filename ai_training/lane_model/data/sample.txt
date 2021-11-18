@@ -1,0 +1,1 @@
+/home/ubuntu/aiml/lane_model/sample/image/1/

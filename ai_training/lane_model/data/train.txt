@@ -1,0 +1,12 @@
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_1/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_2/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_3/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_4/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_5/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_6/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_7/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_daylight_train_8/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_night_train_1/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_night_train_2/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_night_train_3/image/
+/home/ubuntu/aiml/data/traffic_lane/Training/c_1280_720_night_train_4/image/
