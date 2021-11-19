@@ -140,15 +140,15 @@ class NIA_SEGNet_module(pl.LightningModule):
 
     def val_dataloader(self):
         dataset = LaneDataset(data_path='data/val.txt')
-        train_loader = DataLoader(dataset, batch_size = self.batch_size, num_workers=28)
+        train_loader = DataLoader(dataset, batch_size = self.batch_size, num_workers=2)
         return train_loader
 
     def test_dataloader(self):
         dataset = LaneDataset(data_path='data/sample.txt')
-        train_loader = DataLoader(dataset, batch_size = self.batch_size, num_workers=12)
+        train_loader = DataLoader(dataset, batch_size = self.batch_size, num_workers=2)
         return train_loader
 
     def train_dataloader(self):
         dataset = LaneDataset(data_path='data/train.txt')
-        train_loader = DataLoader(dataset, batch_size = self.batch_size, num_workers=12,shuffle=True)
+        train_loader = DataLoader(dataset, batch_size = self.batch_size, num_workers=2,shuffle=True)
         return train_loader

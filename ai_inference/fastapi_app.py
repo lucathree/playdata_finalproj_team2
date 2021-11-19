@@ -27,7 +27,7 @@ origins = [
     "http://localhost.tiangolo.com", 
     "https://localhost.tiangolo.com", 
     "http://localhost", 
-    "http://localhost:8080",
+    "http://localhost:5000",
     "http://3.134.125.59",
     "http://3.134.125.59:5000",
     "*"
@@ -78,7 +78,7 @@ async def predict(image: UploadFile = File(...)):
 
     inf_img_list = [upload_img_path]
     inf_dataset = ImgListDataset(img_data_path_list=inf_img_list)
-    inf_dataloader = DataLoader(inf_dataset, batch_size = model.batch_size, num_workers=12)
+    inf_dataloader = DataLoader(inf_dataset, batch_size = model.batch_size, num_workers=1)
     trainer.test(model, inf_dataloader)
 
     send_img = upload_img_path.replace(upload_dir, response_dir)

@@ -16,7 +16,7 @@
 		const formData = new FormData();
 		formData.append("image", imgfile);
 
-		const res = await fetch("http://3.129.173.11:8000/predict", {
+		const res = await fetch("http://localhost:8001/predict", {
 			method: "POST",
 			//headers: {'Content-Type': 'multipart/form-data'},
 			body: formData,
