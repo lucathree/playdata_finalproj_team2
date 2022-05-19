@@ -16,7 +16,7 @@ import pytorch_lightning as pl
 import base64
 
 
-model = TrafficLaneInference.load_from_checkpoint(checkpoint_path="lane_detection_e5b5lr001.ckpt")
+model = TrafficLaneInference.load_from_checkpoint(checkpoint_path="epoch_3-step_99999.ckpt")
 model.batch_size = 1
 trainer = pl.Trainer(gpus=1, progress_bar_refresh_rate=0)
 

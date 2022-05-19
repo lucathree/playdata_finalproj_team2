@@ -1,1 +1,6 @@
 *.ckpt
+ai_inference/upload/
+*.pyc
+ai_inference/response/
+frontend.zip
+ai_inference/lightning_logs/
